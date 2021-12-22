@@ -1,0 +1,19 @@
+.NavBar{
+    height: 5rem;
+    width: 100%;
+    background-color: var(--color-white);
+}
+.logo_container{
+    background-color: var(--color-secondary-light);
+    width: 20rem;
+    height: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:var(--color-white);
+    letter-spacing: 2px;
+}
+
+
