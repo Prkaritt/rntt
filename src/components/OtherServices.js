@@ -13,7 +13,7 @@ const OtherServices = ()=>{
                 <h2 className={`heading heading_secondary color_white`}>
                     Other Services
                 </h2>
-                <DescCard im = {Car} title="Car Rental" para ="Rent our car and travel all over the country with some of our most experienced drivers. Choose between wide range of cars and SUVS and enjoy the drive."/>
+                <DescCard im = {Car} title="Vehicle Rental" para ="Rent different vehicles and travel all over the country with some of our most experienced drivers. Choose between wide range of cars and SUVS and enjoy the drive."/>
                 <DescCard im = {Plane} title="Charter FLights" para="We also provide plane and helicopter charter services to our customers. We are commited to provide the best service at the most reasonable price."/>
             </div>
         </div>

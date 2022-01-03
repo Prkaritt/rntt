@@ -2,10 +2,12 @@
     height: 5rem;
     width: 100%;
     background-color: var(--color-white);
+    display: flex;
+    justify-content: space-between;
 }
 .logo_container{
-    background-color: var(--color-secondary-light);
-    width: 20rem;
+  
+    width: 50%;
     height: 100%;
     text-transform: uppercase;
     font-weight: bold;
@@ -14,6 +16,38 @@
     justify-content: center;
     color:var(--color-white);
     letter-spacing: 2px;
+    display: flex;
+    justify-content: flex-start;
+
 }
 
+.navigation_items{
+    display: flex;
+    margin-left: auto;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+}
+.navigation_items_item{
+    background-color: var(--color-blue);
+    padding: 1rem 2px;color: var(--color-white);
+}
+.navigation_items_item{
+    margin-left: 5px;
+}
+
+.col{
+    display: flex;
+
+}
+
+.logo{
+    display: inline-block;
+    background-color: var(--color-secondary-light);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+
+}
 

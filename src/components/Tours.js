@@ -9,6 +9,8 @@ import mustang from './../assets/images/mustang.jpg'
 import rara from './../assets/images/rara.jpg'
 import annapurna from './../assets/images/annapurna.jpg'
 
+import {Link} from 'react-router-dom';
+
 const Tours = ()=>{
     return (
         <div className={styles.tours}>
@@ -24,6 +26,9 @@ const Tours = ()=>{
                     
                     
                 </div>
+                    <Link className={`link secondary`} to="/inbound">
+                        <div> See more</div>
+                    </Link>
 
                 <h2 className={`heading heading_secondary`}>
                     Popular Domestic Tours
@@ -36,6 +41,10 @@ const Tours = ()=>{
                     
                     
                 </div>
+
+                <Link className= {`link secondary`} to="/intl">
+                        <div> See more</div>
+                    </Link>
                 
             </div>
         </div>

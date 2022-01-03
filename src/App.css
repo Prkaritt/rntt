@@ -68,8 +68,10 @@ body{
 }
 .mx-114{
   max-width: 114rem;
+  width: 100%;
   margin: 0 auto;
   height: 100%;
+  
 }
 .welcomeText{
   text-transform: uppercase;
@@ -94,6 +96,16 @@ body{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.link{
+  text-decoration: none;
+}
+.white{
+  color: var(--color-white);
+}
+.secondary{
+  color: var(--color-secondary-light);
 }
 
 @media (max-width:800px){
