@@ -26,7 +26,7 @@ const Tours = ()=>{
                     
                     
                 </div>
-                    <Link className={`link secondary`} to="/inbound">
+                    <Link className={`link secondary`} to="/intl">
                         <div> See more</div>
                     </Link>
 
@@ -42,7 +42,7 @@ const Tours = ()=>{
                     
                 </div>
 
-                <Link className= {`link secondary`} to="/intl">
+                <Link className= {`link secondary`} to="/inbound">
                         <div> See more</div>
                     </Link>
                 
