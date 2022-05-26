@@ -23,7 +23,7 @@ const App = ()=>{
       <NavBar/>
       <Routes>
         
-        <Route  exact path="/" element={<HomePage/>} exact={true}/>
+        <Route  exact path="/" element={<HomePage/>}/>
         <Route path="/inbound" element={<InboundTours/>}/>
         <Route path="/intl" element={<IntlTours/>}></Route>
         

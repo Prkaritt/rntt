@@ -11,7 +11,7 @@ const Footer = ()=>{
                     </div>
                     <div className={`${styles.detail}`}>
                         <div className={`${styles.attribute}`}>Email : </div>
-                        <div className={`${styles.value}`}> regencyprashant@gmail.com</div>
+                        <div className={`${styles.value}`}> renttnepal@gmail.com<br></br>regencyprashant@gmail.com</div>
                     </div>
                     <div className={`${styles.detail}`}>
                         <div className={`${styles.attribute}`}>Phone :</div>
