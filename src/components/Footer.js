@@ -15,7 +15,7 @@ const Footer = ()=>{
                     </div>
                     <div className={`${styles.detail}`}>
                         <div className={`${styles.attribute}`}>Phone :</div>
-                        <div className={`${styles.value}`}>01 4428818, 01 4433455</div>
+                        <div className={`${styles.value}`}>01 4528818, 01 4533455</div>
                     </div>
                     <div className={`${styles.detail}`}>
                         <div className={`${styles.attribute}`}>Mobile :</div>
